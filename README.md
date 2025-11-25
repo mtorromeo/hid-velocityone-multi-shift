@@ -18,7 +18,7 @@ This project provides a Linux userspace driver for the Turtle Beach VelocityOne 
 - `evdev`
 - Access to `/dev/uinput` and the HID device (usually requires root or udev rules)
 
-## Installation
+## Installation from source
 
 1. Clone the repository:
    ```bash
@@ -30,6 +30,10 @@ This project provides a Linux userspace driver for the Turtle Beach VelocityOne 
    ```bash
    pip install .
    ```
+
+## Packages
+
+An Arch Linux package is available on [AUR](https://aur.archlinux.org/packages/hid-velocityone-multi-shift).
 
 ## Usage
 
