@@ -1,4 +1,4 @@
-# HID Multi-Shift Driver
+# HID VelocityOne Multi-Shift Driver
 
 Userspace HID driver for the [Turtle Beach VelocityOne Multi-Shift](https://eu.turtlebeach.com/products/velocity-one-multi-shift) racing shifter.
 
