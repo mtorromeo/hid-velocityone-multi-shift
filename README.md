@@ -1,6 +1,6 @@
 # HID Multi-Shift Driver
 
-Userspace HID driver for the Turtle Beach VelocityOne Multi-Shift racing shifter.
+Userspace HID driver for the [Turtle Beach VelocityOne Multi-Shift](https://eu.turtlebeach.com/products/velocity-one-multi-shift) racing shifter.
 
 ## Description
 
@@ -46,3 +46,11 @@ sudo python hid_velocityone_multi_shift.py
 ## License
 
 This project is licensed under the **GPL-2.0-or-later** license. This license was chosen specifically to allow this code to be used as a reference or directly ported for a future upstream Linux kernel driver implementation.
+
+## Affiliate links
+
+Consider using this affiliate links to sponsor the project.
+
+- [amazon.it](https://amzn.to/4rjgJza)
+- [amazon.de](https://amzn.to/4og6XLi)
+- [amazon.co.uk](https://amzn.to/4rr3gWi)
