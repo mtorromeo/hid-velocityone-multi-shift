@@ -1,0 +1,37 @@
+[project]
+name = "hid-velocityone-multi-shift"
+version = "0.1.0"
+description = "HID driver for Turtle Beach VelocityOne Multi-Shift racing shifter"
+readme = "README.md"
+license = "GPL-2.0-or-later"
+requires-python = ">=3.10"
+dependencies = [
+    "hidapi>=0.14.0",
+    "evdev>=1.6.0",
+]
+classifiers = [
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+Homepage = "https://github.com/mtorromeo/hid-velocityone-multi-shift"
+Repository = "https://github.com/mtorromeo/hid-velocityone-multi-shift"
+
+[project.optional-dependencies]
+dev = [
+    "basedpyright>=1.0.0",
+]
+
+[project.scripts]
+hid-velocityone-multi-shift = "hid_velocityone_multi_shift:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["hid_velocityone_multi_shift"]
+
+[tool.basedpyright]
+typeCheckingMode = "standard"
+pythonVersion = "3.10"
